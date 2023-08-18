@@ -1,0 +1,105 @@
+@media screen and (min-width: 428px) {
+    .container {
+        max-width: 398px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .advantages {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .advantages-list {
+        gap: 72px 24px;
+
+    }
+
+    .advantages-item {
+        width: calc((100% - 72px) / 2);
+    }
+
+    .advantages-subtitle {
+        text-align: left;
+    }
+
+    .team-list {
+        gap: 64px;
+    }
+
+    .team-item {
+
+
+    }
+
+    .team-title {
+        
+    }
+}
+
+@media screen and (min-width: 1166px) {
+    .container {
+        max-width: 1166px;
+    }
+
+    .advantages {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        /* width: 1128px;
+        height: 224px; */
+    }
+
+    .advantages-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+
+    .advantages-icon {
+        display: flex;
+    }
+
+    .advantages-subtitle {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+
+    .team {
+        /* padding: 120px; */
+    }
+
+    .team-item {
+        width: calc((100% - 72px) / 4);
+
+    }
+
+    .team-list {
+        gap: 24px;
+        display: flex;
+    }
+
+    .customers {
+        padding-bottom: 120px;
+        padding-top: 120px;
+    }
+
+    .customers-list {
+        gap: 24px;
+    }
+
+    .customers-icon {
+        width: calc((100% - 120px) / 6);
+    }
+}
+
+@media (max-width: 1166px) {
+    .doing {
+        display: none;
+        /* min-width: 1166px; */
+    }
+}
