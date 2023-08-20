@@ -1,6 +1,12 @@
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 427px) {
     .container {
-        max-width: 398px;
+        /* max-width: 398px; */
+    }
+}
+
+@media screen and (max-width: 427px) {
+    .modal {
+        width: calc(100% - 30px);
     }
 }
 
@@ -15,12 +21,26 @@
         display: none;
      }
 
+     .header {
+        padding: 24px 0 ;
+     }
+
     .header-menu-list {
         display: flex;
     }
 
     .address {
          display: flex;
+    }
+
+    .header-address {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .header-address-link {
+        font-size: 12px;
     }
 
     .hero {
@@ -70,7 +90,7 @@
     }
 
     .hero-container {
-        padding: 112px 136px 112px 136px;
+        /* padding: 112px 136px 112px 136px; */
     }
 
     .hero-title {
@@ -97,6 +117,15 @@
         margin-bottom: 17.5px;
     }
 
+    .footer-logo-container {
+        text-align: left;
+        /* margin-bottom: 72px; */
+    }
+
+    .footer-logo-social {
+        /* margin-bottom: 72px; */
+    }
+
     .footer-description {
         text-align: left;
     }
@@ -104,8 +133,6 @@
     .footer-description-social {
         text-align: left;
     }
-
-
 
     .container-footer {
         display: flex;
@@ -121,7 +148,6 @@
 
     .footer-form {
         display: flex;
-        align-items: center;
         gap: 24px;
     }
 
@@ -148,6 +174,11 @@
 
     .address {
         display: flex;
+    }
+
+    .header-address {
+        display: flex;
+        flex-direction: row;
     }
 
     .hero {
@@ -238,6 +269,7 @@
 
     .footer-logo {
         margin-bottom: 16px;
+        text-align: left;
     }
 
     .container-footer {
@@ -254,6 +286,7 @@
 
     .footer-logo-container {
         margin-right: 120px;
+        text-align: left;
     }
 
     .footer-logo-social {
@@ -275,6 +308,7 @@
 
     .container.container-footer {
         min-width: 1158px;
+        gap: unset;
     }
 
     .container-footer {
@@ -282,7 +316,7 @@
     }
 }
 
-@media (max-width: 1158px) {
+@media (max-width: 1157px) {
     .doing {
         display: none;
         /* min-width: 1158px; */
