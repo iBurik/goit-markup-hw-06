@@ -87,12 +87,24 @@
 
     .footer-description {
         text-align: left;
-        margin-left: 24px;
     }
 
     .container-footer {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-items: baseline;
+        justify-content: left;
+    }
+    .container.container-footer {
+        min-width: 584px;
+        gap: 72px 24px;
+    }
+
+    .footer-form {
+        display: flex;
+        align-items: center;
+        gap: 24px;
     }
 }
 
@@ -225,6 +237,14 @@
 
     .footer-btn {
         
+    }
+
+    .container.container-footer {
+        min-width: 1158px;
+    }
+
+    .container-footer {
+        flex-wrap: nowrap;
     }
 }
 
