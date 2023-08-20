@@ -153,11 +153,10 @@ img {
 .address {
     font-style: normal;
     margin-left: auto;
-
+    display: none;
 }
 
 .header-address {
-    display: none;
     gap: 40px;
     
 }
@@ -666,7 +665,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--white, #FFFFFF);
-    margin-top: 72px;
     margin-bottom: 16px;
     text-align: center;
 }
